@@ -31,6 +31,7 @@ class Program
         SwapRowColumn(M, 5, 10);
         Console.WriteLine("Matriz após trocar linha 5 com coluna 10:");
         ExibirMatriz(M);
+        Console.ReadLine();
     }
 
     // Procedimento para preencher uma matriz
