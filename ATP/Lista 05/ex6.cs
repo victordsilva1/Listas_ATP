@@ -38,6 +38,8 @@ class TemperaturasOutubro
         Console.WriteLine("Maior temperatura: " + maiorTemperatura + "°C");
         Console.WriteLine("Temperatura média: " + mediaTemperatura + "°C");
         Console.WriteLine("Número de dias com temperatura abaixo da média: " + diasAbaixoMedia);
+
+        Console.ReadLine();
     }
 }
 
