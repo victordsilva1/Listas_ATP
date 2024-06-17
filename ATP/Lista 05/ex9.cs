@@ -29,6 +29,8 @@ class Program
         int[,] D = SubtrairMatrizes(A, B);
         Console.WriteLine("Matriz Diferença (D = A - B):");
         ExibirMatriz(D);
+
+        Console.ReadLine();
     }
 
     // Procedimento para preencher uma matriz
