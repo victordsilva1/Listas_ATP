@@ -27,6 +27,7 @@ class MatrizDiagonal
             Console.Write(matriz[i, i] + " ");
         }
         Console.WriteLine("\nSoma dos elementos abaixo da diagonal principal: " + somaAbaixoDiagonal);
+        Console.ReadLine();
     }
 
     // Procedimento para preencher a matriz com números aleatórios
