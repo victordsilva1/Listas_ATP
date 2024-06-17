@@ -16,6 +16,8 @@ class MatrizOperacoes
         Console.WriteLine("Soma da diagonal principal: " + SomaDiagonalPrincipal(matriz));
         Console.WriteLine("Soma da diagonal secundária: " + SomaDiagonalSecundaria(matriz));
         Console.WriteLine("Soma de todos os elementos da matriz: " + SomaTotal(matriz));
+
+        Console.ReadLine();
     }
 
     // Procedimento para preencher a matriz com números aleatórios
