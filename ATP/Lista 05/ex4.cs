@@ -17,6 +17,9 @@ class Program
         
         // Chama o procedimento para exibir os valores do vetor intercalado.
         ExibirVetor(vetorIntercalado);
+
+        Console.ReadLine();
+        // Só paa nao fechar
     }
 
     // Procedimento para preencher dois vetores com valores aleatórios.
