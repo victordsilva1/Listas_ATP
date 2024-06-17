@@ -28,8 +28,8 @@ class Program
         Random random = new Random();
         for (int i = 0; i < 10; i++)
         {
-            vetorX[i] = random.Next(0, 100); // Preenche 'vetorX' com números aleatórios entre 0 e 100.
-            vetorY[i] = random.Next(0, 100); // Preenche 'vetorY' com números aleatórios entre 0 e 100.
+            vetorX[i] = random.Next(0, 100); 
+            vetorY[i] = random.Next(0, 100); 
         }
     }
 
@@ -40,7 +40,7 @@ class Program
         
         for (int i = 0; i < vetorIntercalado.Length; i++)
         {
-            if (i % 2 == 0) // Se a posição for par...
+            if (i % 2 == 0) // Se a posição for par
             {
                 vetorIntercalado[i] = vetorY[i / 2]; // ...pega elemento do 'vetorY'.
             }
@@ -56,9 +56,9 @@ class Program
     // Procedimento para exibir os valores de um vetor.
     static void ExibirVetor(int[] vetor)
     {
-        foreach (int valor in vetor) // Para cada valor no vetor...
+        foreach (int valor in vetor) // Para cada valor no vetor
         {
-            Console.WriteLine(valor); // ...exibe o valor na tela.
+            Console.WriteLine(valor); // exibe o valor na tela.
         }
     }
 }
