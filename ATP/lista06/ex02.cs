@@ -1,6 +1,6 @@
 using System;
 
-class RemoverVogais
+class Program
 {
     static void Main()
     {
